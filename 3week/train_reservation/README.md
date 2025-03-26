@@ -1,16 +1,23 @@
-# train_reservation
+# 3week - 기차 예약 앱
 
-A new Flutter project.
+## 프로젝트 소개
+Flutter로 개발한 기차 예약 앱입니다. 출발역과 도착역을 선택하고 좌석을 예약할 수 있습니다.
 
-## Getting Started
+## 주요 기능
+- 출발역/도착역 선택
+- 좌석 예약 (A, B, C, D 열 구성)
+- 예약 내역 확인 및 취소
 
-This project is a starting point for a Flutter application.
+## 구현 사항
+- Flutter와 Dart 사용
+- StatefulWidget으로 상태 관리
+- 직관적인 좌석 선택 UI (행 번호 중앙 배치)
+- 예약 확인 다이얼로그
 
-A few resources to get you started if this is your first Flutter project:
++ 추가 구현 사항
+1. 좌석 여러개 선택 가능하도록 적용
+2. 같은 지역 선택하고 좌석 선택 버튼 클릭시 '같은 지역 선택했다 다시 지역설정해라'고 팝업 띄워서 막아주기
+3. 좌석 선택하고 예매하기 눌러서 팝업 내용 확인하고 확인 누르면 성공적으로 예매 됐습니다! 하고 다시 홈화면가면 리셋되어있음
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 어려웠던 사항
+지금도 그렇지만 도무지 a,b,c,d가 각 열의 중앙에 서있지 않아요,,,,,,,,,,,,,,,,줄맞추고 싶어요,,,,,,,,
